@@ -24,8 +24,8 @@
 ## What I'm Up To
 
 - **Native-first** - If it runs on a Mac, it should feel like a Mac
-- **Rust + Swift** - Systems-level tooling meets polished UI
-- **Exploring Web3** - Building developer tools for the Solana ecosystem
+- **AI agents** - Learning and building tools to make AI agents actually work
+- **Open source** - Giving back after years of guilt-free `npm install`
 
 ## Connect
 
