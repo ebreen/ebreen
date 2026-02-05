@@ -1,6 +1,6 @@
 # Hi, I'm Eirik
 
-📍 **Norway** | 🛠 **Indie Developer** | 🍎 **Apple Platform Engineer**
+📍 **Norway** | 🛠 **Builder**
 
 ![Swift](https://img.shields.io/badge/-Swift-FA7343?style=flat-square&logo=swift&logoColor=white)
 ![SwiftUI](https://img.shields.io/badge/-SwiftUI-0062D3?style=flat-square&logo=swift&logoColor=white)
@@ -11,6 +11,7 @@
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 
 > Building native apps and tooling -- shipping things that feel right on the platform they run on.
+> Exploring how to make AI agentic engineering faster and reliable.
 
 ## Projects
 
