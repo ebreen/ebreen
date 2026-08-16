@@ -115,9 +115,11 @@ function renderCard(posts, theme) {
     .map((post, i) => {
       const y = ROW_Y[i];
       const delay = DELAY[i];
+      const index = String(i + 1).padStart(2, "0");
       return `  <g class="rise ${delay}">
-    <text x="48" y="${y}" class="mono" font-size="12" fill="${theme.accent}">${escapeXml(post.displayDate)}</text>
-    <text x="164" y="${y}" class="sans" font-size="16" font-weight="600" fill="${theme.text}">${escapeXml(post.title)}</text>
+    <text x="48" y="${y}" class="mono" font-size="12" fill="${theme.accent}">${index}</text>
+    <text x="88" y="${y}" class="sans" font-size="16" font-weight="600" fill="${theme.text}">${escapeXml(post.title)}</text>
+    <text x="88" y="${y + 22}" class="sans" font-size="14" fill="${theme.muted}">${escapeXml(post.displayDate)}</text>
   </g>`;
     })
     .join("\n");
