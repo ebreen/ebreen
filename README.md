@@ -16,14 +16,14 @@ After hours I follow sidequests: homelab, native apps, local models, coding agen
 <a href="https://www.eirikbreen.com/blog">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./wrote-dark.svg" />
-    <img alt="Latest notes: Why CloudMount Uses FSKit Instead of FUSE; My Monitoring Stack Got Smaller and Better; Giving an AI Agent a Real Coding Bounty; The Local LLM Jobs That Actually Stuck" src="./wrote.svg" width="100%" />
+    <img alt="Latest notes: Why CloudMount Uses FSKit Instead of FUSE; My Monitoring Stack Got Smaller and Better; Giving an AI Agent a Real Coding Bounty" src="./wrote.svg" width="100%" />
   </picture>
 </a>
 
 <a href="https://www.eirikbreen.com/projects">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./projects-dark.svg" />
-    <img alt="Featured projects: PixelWitness, Parrot for Windows, Shield AirPlay, CloudMount" src="./projects.svg" width="100%" />
+    <img alt="Featured projects: PixelWitness, Parrot for Windows, Shield AirPlay" src="./projects.svg" width="100%" />
   </picture>
 </a>
 
