@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="36" viewBox="0 0 84 36" role="img" aria-label="email">
+  <defs><style>
+    .sans { font-family: 'Avenir Next', Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style></defs>
+  <rect x="0.5" y="0.5" width="83" height="35" rx="18" fill="#111111" stroke="#292929"/>
+  <text x="42.0" y="23" class="sans" font-size="13" font-weight="500" fill="#cbc6bb" text-anchor="middle">email</text>
+</svg>

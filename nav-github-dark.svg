@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92" height="36" viewBox="0 0 92 36" role="img" aria-label="github">
+  <defs><style>
+    .sans { font-family: 'Avenir Next', Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  </style></defs>
+  <rect x="0.5" y="0.5" width="91" height="35" rx="18" fill="#111111" stroke="#292929"/>
+  <text x="46.0" y="23" class="sans" font-size="13" font-weight="500" fill="#cbc6bb" text-anchor="middle">github</text>
+</svg>
