@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="184" viewBox="0 0 840 184" role="img">
+  <defs><style>
+      .display { font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400; }
+      .sans { font-family: 'Avenir Next', Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .rise { animation: rise .55s cubic-bezier(.16,1,.3,1); }
+      .d1 { animation-delay: .06s; }
+      .d2 { animation-delay: .12s; }
+      .d3 { animation-delay: .18s; }
+      .d4 { animation-delay: .24s; }
+      .rule { transform-box: fill-box; transform-origin: left center; animation: drawx .7s cubic-bezier(.16,1,.3,1) .12s; }
+      .grow { transform-box: fill-box; transform-origin: left center; animation: drawx .7s cubic-bezier(.16,1,.3,1) .18s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes drawx { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      @media (prefers-reduced-motion: reduce) {
+        .rise, .rule, .grow { animation: none !important; }
+      }
+</style></defs>
+  <rect x="0.5" y="0.5" width="839" height="183" rx="20" fill="#111111" stroke="#292929"/>
+  <g class="rise">
+    <text x="48" y="44" class="mono" font-size="11" fill="#98938a" letter-spacing="1.2">TOOLKIT</text>
+    <text x="46" y="80" class="display" font-size="24" fill="#efece3">Things I reach for</text>
+  </g>
+  <g class="rise d1">
+    <text x="48" y="124" class="mono" font-size="12" fill="#d6b45f">systems</text>
+    <rect class="grow" x="48" y="128" width="51" height="1.5" rx="1" fill="#d6b45f"/>
+    <text x="48" y="156" class="sans" font-size="14" fill="#cbc6bb">RHEL  ·  K3s / MKS  ·  PCI-DSS  ·  Splunk / Elastic</text>
+  </g>
+  <g class="rise d2">
+    <text x="440" y="124" class="mono" font-size="12" fill="#d6b45f">automation</text>
+    <rect class="grow" x="440" y="128" width="73" height="1.5" rx="1" fill="#d6b45f"/>
+    <text x="440" y="156" class="sans" font-size="14" fill="#cbc6bb">Argo CD  ·  Ansible  ·  Vault / OpenBao  ·  small tools</text>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="380" viewBox="0 0 840 380" role="img">
+  <defs><style>
+      .display { font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 400; }
+      .sans { font-family: 'Avenir Next', Avenir, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .mono { font-family: 'SF Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .rise { animation: rise .55s cubic-bezier(.16,1,.3,1); }
+      .d1 { animation-delay: .06s; }
+      .d2 { animation-delay: .12s; }
+      .d3 { animation-delay: .18s; }
+      .d4 { animation-delay: .24s; }
+      .rule { transform-box: fill-box; transform-origin: left center; animation: drawx .7s cubic-bezier(.16,1,.3,1) .12s; }
+      @keyframes rise { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes drawx { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+      @media (prefers-reduced-motion: reduce) {
+        .rise, .rule { animation: none !important; }
+      }
+</style></defs>
+  <rect x="0.5" y="0.5" width="839" height="379" rx="20" fill="#111111" stroke="#292929"/>
+  <g class="rise">
+    <text x="48" y="44" class="mono" font-size="11" fill="#98938a" letter-spacing="1.2">WROTE</text>
+    <text x="46" y="80" class="display" font-size="24" fill="#efece3">Latest notes</text>
+  </g>
+  <g class="rise d1">
+    <text x="48" y="118" class="mono" font-size="12" fill="#d6b45f">21 Jun 2026</text>
+    <text x="164" y="118" class="sans" font-size="16" font-weight="600" fill="#efece3">Why CloudMount Uses FSKit Instead of FUSE</text>
+  </g>
+  <g class="rise d2">
+    <text x="48" y="174" class="mono" font-size="12" fill="#d6b45f">24 May 2026</text>
+    <text x="164" y="174" class="sans" font-size="16" font-weight="600" fill="#efece3">My Monitoring Stack Got Smaller and Better</text>
+  </g>
+  <g class="rise d3">
+    <text x="48" y="230" class="mono" font-size="12" fill="#d6b45f">1 May 2026</text>
+    <text x="164" y="230" class="sans" font-size="16" font-weight="600" fill="#efece3">Giving an AI Agent a Real Coding Bounty</text>
+  </g>
+  <g class="rise d4">
+    <text x="48" y="286" class="mono" font-size="12" fill="#d6b45f">10 Apr 2026</text>
+    <text x="164" y="286" class="sans" font-size="16" font-weight="600" fill="#efece3">The Local LLM Jobs That Actually Stuck</text>
+  </g>
+  <g class="rise d4">
+    <text x="48" y="356" class="mono" font-size="12" fill="#98938a">all notes at eirikbreen.com/blog</text>
+  </g>
+</svg>
