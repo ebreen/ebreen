@@ -21,17 +21,17 @@
   </g>
   <g class="rise d1">
     <circle cx="54" cy="114" r="2.5" fill="#d6b45f"/>
-    <text x="72" y="118" class="sans" font-size="16" font-weight="600" fill="#efece3">Why CloudMount Uses FSKit Instead of FUSE</text>
+    <text x="72" y="118" class="sans" font-size="16" font-weight="600" fill="#efece3">Why CloudMount uses FSKit instead of FUSE</text>
     <text x="792" y="118" class="mono" font-size="12" fill="#98938a" text-anchor="end">21 Jun 2026</text>
   </g>
   <g class="rise d2">
     <circle cx="54" cy="150" r="2.5" fill="#d6b45f"/>
-    <text x="72" y="154" class="sans" font-size="16" font-weight="600" fill="#efece3">My Monitoring Stack Got Smaller and Better</text>
+    <text x="72" y="154" class="sans" font-size="16" font-weight="600" fill="#efece3">My monitoring stack got smaller and better</text>
     <text x="792" y="154" class="mono" font-size="12" fill="#98938a" text-anchor="end">24 May 2026</text>
   </g>
   <g class="rise d3">
     <circle cx="54" cy="186" r="2.5" fill="#d6b45f"/>
-    <text x="72" y="190" class="sans" font-size="16" font-weight="600" fill="#efece3">Giving an AI Agent a Real Coding Bounty</text>
+    <text x="72" y="190" class="sans" font-size="16" font-weight="600" fill="#efece3">Giving an AI agent a real coding bounty</text>
     <text x="792" y="190" class="mono" font-size="12" fill="#98938a" text-anchor="end">1 May 2026</text>
   </g>
   <g class="rise d3">
